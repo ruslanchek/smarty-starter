@@ -3,10 +3,10 @@
 
     Class Config{
         public $db_vars = array(
-            'host'  => 'localhost',
-            'db'    => 'gps',
-            'user'  => 'root',
-            'pass'  => ''
+            'host'  => 'mysql_server_hostname_or_ip_address',
+            'db'    => 'mysql_db_name',
+            'user'  => 'mysql_username',
+            'pass'  => 'mysql_password'
         );
     };
 ?>
