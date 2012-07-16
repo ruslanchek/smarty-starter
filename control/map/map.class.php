@@ -1,9 +1,9 @@
 <?php
-    Class Map extends Core {
+    Class Test extends Core {
         public function __construct(){
             $this->init(array(
-                'name'  => 'map',
-                'title' => 'Карта'
+                'name'  => 'test',
+                'title' => 'Test'
             ));
 
             if($this->ajax_mode){
